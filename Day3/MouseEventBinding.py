@@ -10,7 +10,7 @@ def draw(event,x,y,flags,param): # event is the type of mouse event, x and y are
     # Check if the left button was double clicked
     if event == cv2.EVENT_LBUTTONDBLCLK:
         
-        cv2.circle(img,(x,y),100,(256,256,255),5)
+        cv2.circle(img,(x,y),100,(255,255,255),5)
 
     # Check if the right button was double clicked
     if event == cv2.EVENT_RBUTTONDBLCLK:
